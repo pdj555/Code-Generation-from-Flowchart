@@ -11,7 +11,7 @@ The code generation process begins by analyzing the flowchart's structure and no
 
 The generated code is designed to accurately implement the algorithm or process described by the flowchart. It captures the sequence of actions, decision-making conditions, and any necessary loops or iterations. The resulting code is executable and can be run in a suitable programming language to achieve the desired functionality represented by the flowchart.
 
-##Getting Started
+## Getting Started
 
 To use this program effectively, follow these steps:
 
@@ -22,7 +22,7 @@ To use this program effectively, follow these steps:
   - Review the generated code to ensure it accurately reflects the algorithm or process described by the flowchart.
   - Execute the generated code in a suitable programming language to observe the expected functionality.
 
-##Features and Capabilities
+## Features and Capabilities
 
 The program offers the following features and capabilities:
 
@@ -32,7 +32,7 @@ The program offers the following features and capabilities:
   - Generation of code snippets or blocks that accurately replicate the actions and logic specified by the flowchart.
   - Handling of complex scenarios, including nested if conditions and iterative loops.
 
-##Conclusion
+## Conclusion
 
 By utilizing this code generation program, you have automated the process of converting flowchart diagrams into executable code. The program's ability to analyze the flowchart's structure, extract relevant information, and generate code snippets will greatly enhance your productivity and reduce the manual effort required to implement algorithms or processes represented by flowcharts.
 
