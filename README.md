@@ -1,4 +1,4 @@
-# Code Generation from Flowchart Program
+# Flowchart-to-Code Generator: Automating Code Generation from Flowcharts
 
 This program is designed to automate the process of generating code from a given flowchart. By analyzing the flowchart's structure and symbols, the program automatically generates executable code that replicates the algorithm or process described by the flowchart.
 Program Description
