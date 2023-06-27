@@ -15,12 +15,12 @@ The generated code is designed to accurately implement the algorithm or process 
 
 To use this program effectively, follow these steps:
 
-  - Ensure you have completed the necessary project requirements, including understanding the concept of code generation from flowcharts.
-  - Prepare the flowchart's adjacency list representation, which will serve as the input for the program.
-  - Familiarize yourself with the node object class and its fields to understand how the program stores information about each node.
-  - Run the program and provide the flowchart's adjacency list as input.
-  - Review the generated code to ensure it accurately reflects the algorithm or process described by the flowchart.
-  - Execute the generated code in a suitable programming language to observe the expected functionality.
+  1. Ensure you have completed the necessary project requirements, including understanding the concept of code generation from flowcharts.
+  2. Prepare the flowchart's adjacency list representation, which will serve as the input for the program.
+  3. Familiarize yourself with the node object class and its fields to understand how the program stores information about each node.
+  4. Run the program and provide the flowchart's adjacency list as input.
+  5. Review the generated code to ensure it accurately reflects the algorithm or process described by the flowchart.
+  6. Execute the generated code in a suitable programming language to observe the expected functionality.
 
 ## Features and Capabilities
 
