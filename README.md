@@ -32,6 +32,34 @@ The program offers the following features and capabilities:
   - Generation of code snippets or blocks that accurately replicate the actions and logic specified by the flowchart.
   - Handling of complex scenarios, including nested if conditions and iterative loops.
 
+## Input File Format
+
+The input file for the code generation program follows a specific format. Here is an example input file as a reference:
+
+    5
+    0 START
+    1 IF expression1
+    2 BLOCK statement1
+    3 BLOCK statement2
+    4 END
+    01 123 24 34
+    4
+
+The input file consists of the following components:
+
+1. **Number of Nodes**: The first line of the input file indicates the total number of nodes in the flowchart. In the example above, there are 5 nodes.
+
+2. **Node Details**: For each node, the input file provides the node type and associated expression or statement. The node details are listed one after another. In the example, the details are as follows:
+    - Node 0: Type is START.
+    - Node 1: Type is IF, with the expression expression1.
+    - Node 2: Type is BLOCK, with the statement statement1.
+    - Node 3: Type is BLOCK, with the statement statement2.
+    - Node 4: Type is END.
+
+3. **Adjacency List**: After listing the node details, the input file provides the adjacency list. Each line of the adjacency list represents the connections from a node to other nodes. The line starts with the node number, followed by the numbers of nodes that it flows to. In the example, the adjacency list is as follows:
+    - Node 0 flows to node 1 (01).
+    - Node 1 has two flows: true flow to node 2 (123) and 
+
 ## Conclusion
 
 By utilizing this code generation program, you have automated the process of converting flowchart diagrams into executable code. The program's ability to analyze the flowchart's structure, extract relevant information, and generate code snippets will greatly enhance your productivity and reduce the manual effort required to implement algorithms or processes represented by flowcharts.
