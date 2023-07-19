@@ -99,9 +99,9 @@ void convertFlowChart(vector<Node>& allNodes, vector<vector<int> >& adjList, int
     else if (allNodes[currentNode].getType() == "IF") {
         cout << "if (" << allNodes[currentNode].getTextWithin() << ")\n{\n";
         convertFlowChart(allNodes, adjList, adjList[currentNode][0]);
-        cout << "\n}\nelse\n{\n";
+        cout << "}\nelse\n{\n";
         convertFlowChart(allNodes, adjList, adjList[currentNode][1]);
-        cout << "\n}\n";
+        cout << "}\n";
     }
     else if (allNodes[currentNode].getType() == "BLOCK") {
         cout << allNodes[currentNode].getTextWithin() << "\n";
