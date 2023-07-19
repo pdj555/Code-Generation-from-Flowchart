@@ -58,7 +58,34 @@ The input file consists of the following components:
 
 3. **Adjacency List**: After listing the node details, the input file provides the adjacency list. Each line of the adjacency list represents the connections from a node to other nodes. The line starts with the node number, followed by the numbers of nodes that it flows to. In the example, the adjacency list is as follows:
     - Node 0 flows to node 1 (01).
-    - Node 1 has two flows: true flow to node 2 (123) and 
+    - Node 1 has two flows: true flow to node 2 and node 3 (123).
+
+## Sample Output
+    Number of nodes: 5
+    0: START node
+    1: IF node - expression1
+    2: BLOCK node - statement1
+    3: BLOCK node - statement2
+    4: END node
+    AdjList:
+    0: 1
+    1: 2 3
+    2: 4
+    3: 4
+    4: 
+    start
+    if (expression1)
+    {
+    statement1
+    
+    }
+    else
+    {
+    statement2
+    
+    }
+    statement2
+    end
 
 ## Conclusion
 
