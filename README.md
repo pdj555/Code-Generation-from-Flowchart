@@ -82,12 +82,10 @@ The input file consists of the following components:
     if (expression1)
     {
     statement1
-    
     }
     else
     {
     statement2
-    
     }
     statement2
     end
