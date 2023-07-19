@@ -34,6 +34,8 @@ The program offers the following features and capabilities:
 
 ## Input File Format
 
+<img width="451" alt="Screenshot 2023-07-19 at 11 57 14 AM" src="https://github.com/pdj555/Flowchart-to-Code-Generator/assets/102199778/b0716158-9b55-44ed-9f40-286c09478a51">
+
 The input file for the code generation program follows a specific format. Here is an example input file as a reference:
 
     5
