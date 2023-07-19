@@ -44,7 +44,10 @@ The input file for the code generation program follows a specific format. Here i
     2 BLOCK statement1
     3 BLOCK statement2
     4 END
-    01 123 24 34
+    0 1 
+    1 2 3 
+    2 4 
+    3 4
     4
 
 The input file consists of the following components:
